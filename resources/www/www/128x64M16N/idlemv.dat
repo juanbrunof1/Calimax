@@ -1,0 +1,5 @@
+[value]
+BODY_MSG=INGRESE, DESLICE TARJETA
+flagmanual=1
+timeOut=30
+

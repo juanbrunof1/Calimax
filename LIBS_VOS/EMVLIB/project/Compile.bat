@@ -1,0 +1,3 @@
+nmake Lab.smk
+
+pause

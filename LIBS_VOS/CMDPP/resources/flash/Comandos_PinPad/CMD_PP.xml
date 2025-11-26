@@ -1,0 +1,141 @@
+<CMD AppName="app">
+
+	<MSJ cmdName="CA1" lenCmd="0" numFields="3">
+
+
+		<FIELD0 Flow="T" defined="FIX" len="2" type="NUM" >CODRESP</FIELD0>
+
+		<FIELD1 Flow="T" defined="VAR" len="548" type="HEX" >TOKEW</FIELD1>
+
+		<FIELD2 Flow="T" defined="VAR" len="70" type="HEX" >TOKES</FIELD2>
+
+	</MSJ>
+
+
+	<MSJ cmdName="CA2" lenCmd="0" numFields="2">
+
+		<FIELD0 Flow="H"  defined="VAR" len="78" type="HEX" >TOKEX</FIELD0>
+
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="NUM" >CODRESP</FIELD1>
+
+	</MSJ>
+	
+	
+	<MSJ cmdName="CA5" lenCmd="0" numFields="2">
+
+		<FIELD0 Flow="H"  defined="VAR" len="376" type="HEX" >TOKET</FIELD0>
+
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="NUM" >CODRESP</FIELD1>
+
+	</MSJ>
+	
+	<MSJ cmdName="CA6" lenCmd="0" numFields="4">
+
+		<FIELD0 Flow="T"  defined="FIX" len="8" type="ASC" >IDBINES</FIELD0>
+
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="ASC" >VERTABLE</FIELD1>
+
+		<FIELD2 Flow="T"  defined="FIX" len="8" type="NUM" >MINBIN</FIELD2>
+
+		<FIELD3 Flow="T"  defined="FIX" len="8" type="NUM" >FINBIN</FIELD3>
+
+	</MSJ>
+
+
+	<MSJ cmdName="CA8" lenCmd="0" numFields="1">
+
+		<FIELD0 Flow="T"  defined="FIX" len="70" type="HEX" >TOKENQ8</FIELD0>  
+		
+		<FIELD1 Flow="T"  defined="FIX" len="36" type="HEX" >TOKENES</FIELD1>  
+
+	</MSJ>
+	
+	
+    <MSJ cmdName="CA9" lenCmd="2" numFields="2">
+
+		<FIELD0 Flow="H"  defined="FIX" len="1024" type="HEX" >TELEDATA</FIELD0>
+
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="NUM" >CODRESP</FIELD1>
+
+	</MSJ>
+
+	<MSJ cmdName="CC0" lenCmd="0" numFields="3">
+
+		<FIELD0 Flow="H"  defined="FIX" len="3" type="NUM" >TIMEOUT</FIELD0>
+
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="NUM" >CODRESP</FIELD1>
+		
+		<FIELD2 Flow="T"  defined="VAR" len="19" type="NUM" >pan</FIELD2>
+
+	</MSJ>
+	
+	<MSJ cmdName="CC1" lenCmd="0" numFields="21">		
+
+		<FIELD0 Flow="H"  defined="FIX" len="3" type="NUM" >TIMEOUT</FIELD0>
+		
+		<FIELD1 Flow="H"  defined="FIX" len="6" type="NUM" >DATE</FIELD1>
+		
+		<FIELD2 Flow="H"  defined="FIX" len="6" type="NUM" >TIME</FIELD2>
+		
+		<FIELD3 Flow="H"  defined="FIX" len="2" type="NUM" >TRANSCODE</FIELD3>
+		
+		<FIELD4 Flow="H"  defined="FIX" len="12" type="NUM" >AMOUNT</FIELD4>
+		
+		<FIELD5 Flow="H"  defined="FIX" len="12" type="NUM" >CASHBACK</FIELD5>
+		
+		<FIELD6 Flow="H"  defined="FIX" len="4" type="NUM" >CURRCODE</FIELD6>
+		
+		<FIELD7 Flow="H"  defined="FIX" len="1" type="NUM" >TERMDESC</FIELD7>
+		
+		<FIELD8 Flow="H"  defined="FIX" len="1" type="NUM" >FLAGCVV_4DBC</FIELD8>
+		
+		<FIELD9 Flow="H"  defined="FIX" len="1" type="NUM" >FLAG_EXPDATE</FIELD9>
+		
+		<FIELD10 Flow="T"  defined="FIX" len="2" type="NUM" >CODERESP</FIELD10>
+		
+		<FIELD11 Flow="T"  defined="FIX" len="168" type="NUM" >TOKENB2</FIELD11>				
+		
+		<FIELD12 Flow="T"  defined="FIX" len="90" type="NUM" >TOKENB3</FIELD12>				
+		
+		<FIELD13 Flow="T"  defined="FIX" len="36" type="NUM" >TOKENB4</FIELD13>				
+		
+		<FIELD14 Flow="T"  defined="FIX" len="36" type="NUM" >TOKENQ8</FIELD14>				
+		
+		<FIELD15 Flow="T"  defined="FIX" len="308" type="NUM" >TOKENQ9</FIELD15>				
+		
+		<FIELD16 Flow="T"  defined="FIX" len="182" type="NUM" >TOKENEY</FIELD16>				
+		
+		<FIELD17 Flow="T"  defined="FIX" len="108" type="NUM" >TOKENEZ</FIELD17>				
+		
+		<FIELD18 Flow="T"  defined="FIX" len="70" type="NUM" >TOKENES</FIELD18>				
+		
+		<FIELD19 Flow="T"  defined="FIX" len="36" type="NUM" >TOKENC0</FIELD19>				
+		
+		<FIELD20 Flow="T"  defined="FIX" len="50" type="NUM" >TOKENQE</FIELD20>				
+
+	</MSJ>
+	
+	<MSJ cmdName="CC4" lenCmd="0" numFields="9">		
+
+		<FIELD0 Flow="A"  defined="FIX" len="1" type="NUM" >RESPCODE</FIELD0>
+		
+		<FIELD1 Flow="H"  defined="FIX" len="48" type="HEX" >TOKENB5</FIELD1>		
+		
+		<FIELD2 Flow="H"  defined="FIX" len="256" type="HEX" >TOKENB6</FIELD2>
+		
+		<FIELD3 Flow="T"  defined="FIX" len="3" type="NUM" >TYPECRYPT</FIELD3>
+		
+		<FIELD4 Flow="T"  defined="FIX" len="16" type="NUM" >CRYPTO</FIELD4>
+		
+		<FIELD5 Flow="T"  defined="FIX" len="3" type="NUM" >LENGAUHTRES</FIELD5>
+		
+		<FIELD6 Flow="T"  defined="FIX" len="2" type="NUM" >AUHTRES</FIELD6>
+		
+		<FIELD7 Flow="T"  defined="FIX" len="2" type="NUM" >SCRIPTPROCESSED</FIELD7>		
+		
+		<FIELD8 Flow="T"  defined="FIX" len="X" type="HEX" >SCRIPT</FIELD8>		
+
+	</MSJ>
+	
+</CMD>
+

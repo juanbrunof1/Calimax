@@ -1,0 +1,5 @@
+
+
+nmake cmdpp.smk
+
+pause

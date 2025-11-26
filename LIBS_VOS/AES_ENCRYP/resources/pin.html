@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+ Input:
+	title - PIN form title
+	prompt - message to be displayed
+
+ Output:
+	-1 - Cancel pressed
+	0 - OK pressed
+-->
+<html>
+  <body>
+    <table border="0" cellspacing="0" cellpadding="0" style="height:97%;width:100%;">
+      <tr>	
+	<td><h1></h1></td>
+      </tr>
+      <tr>
+	<td style="height:100%;width:100%;vertical-align:middle;text-align:center">
+		<h1><?var amount?></h1>
+	<--  <p><?var prompt?></p>   -->
+		<span style="font-size:0px">
+		<input type="pin" name="pin" style="width:80%;" action="return 0"/> </span>
+	</td>
+      </tr><tr>
+	<td style="height:1px;width:100%;">
+	  <table cellspacing="0" cellpadding="2px" border="0" style="width:100%;">
+	    <tr>
+	      <td style="width:25%;"></td>
+	      <td style="width:50%;text-align:center">  
+			<button accesskey="&#13;" style="width:100%;padding-top:0px;padding-bottom:0px;background-color:#f00000;color:white" action="return 0">Confirmar</button> 	
+			<button accesskey="&#27;" style="width:100%;font-size:10pt;background-color:#436599;color:white;padding-top:0px;padding-bottom:0px;" action="return -1">Cancelar</button>
+	
+	      </td>
+	      <td style="width:25%;"></td>
+	    </tr>
+	  </table>
+	</td>
+      </tr>
+    </table>
+  </body>
+</html>

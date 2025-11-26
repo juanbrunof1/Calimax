@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<TerminalData>
+  <CL_Modes_Supported>FFFFFFFF</CL_Modes_Supported>
+  <TermTyp>22</TermTyp>
+  <CountryCodeTerm>0484</CountryCodeTerm>
+  <CL_Ceiling_Limit>00009C40</CL_Ceiling_Limit>
+  <TermCap>E0F8C8</TermCap>
+  <TermAddCap>0000000000</TermAddCap>
+  <CurrencyTrans>0484</CurrencyTrans>
+  <ExpTrans>02</ExpTrans>
+  <SuppLang>0100000000000000</SuppLang>
+  <IFD_SerialNumber>12345678</IFD_SerialNumber>
+  <KernelVersion>--.--</KernelVersion>
+  <BeepVolume>0064</BeepVolume>
+  <BeepFrequencySuccess>0000</BeepFrequencySuccess>
+  <BeepFrequencyAlert>0000</BeepFrequencyAlert>
+  <FrameworkVersion>5.13.50-250</FrameworkVersion>
+</TerminalData>

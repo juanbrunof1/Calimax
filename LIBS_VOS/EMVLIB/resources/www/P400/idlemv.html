@@ -1,0 +1,34 @@
+
+<html>
+<body>
+<table border='0' style='height:100%;width:100%'>
+  <tr><td style='vertical-align:top'>Inserte o Deslice </td></tr>
+  <tr><td style='height:1px'>
+      <table style='width:100%'>
+        <tr><td style='width:33%'>
+            <button accesskey='&#27;' style='width:100%;background-image:linear-gradient(to bottom, #ffd1d1 0%,#ff7f7f 50%,#e90000 51%,#ff0000 75%,#c80000 100%)' action='return -1'>CANCEL</button>
+          </td><td style='width:34%'>
+          </td><td  style='width:33%'>
+        </td></tr>
+      </table>
+  </td></tr>
+</table>
+
+<?ifeq flagmanual 1  
+(button accesskey="0" style="visibility:hidden" action='return 0'/)
+(button accesskey="1" style="visibility:hidden" action='return 1'/)
+(button accesskey="2" style="visibility:hidden" action='return 2'/)
+(button accesskey="3" style="visibility:hidden" action='return 3'/)
+(button accesskey="4" style="visibility:hidden" action='return 4'/)
+(button accesskey="5" style="visibility:hidden" action='return 5'/)
+(button accesskey="6" style="visibility:hidden" action='return 6'/)
+(button accesskey="7" style="visibility:hidden" action='return 7'/)
+(button accesskey="8" style="visibility:hidden" action='return 8'/)
+(button accesskey="9" style="visibility:hidden" action='return 9'/)
+?>
+<input type='timeout' value='<?var timeOut?>' style="visibility:hidden" action="return -6"/>
+<button accesskey='&#138;' style='visibility:hidden' action='call focus.previous()'></button>
+<button accesskey='&#139;' style='visibility:hidden' action='call focus.next()'></button>
+
+</body>
+</html>

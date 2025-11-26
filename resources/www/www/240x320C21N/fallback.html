@@ -1,0 +1,56 @@
+<html>
+<body>
+
+<div width="100%" height="100%" style='height:100%;width:100%;background-image:url("../images/240x320C21N/layoutfondoblanco.png");background-repeat:no-repeat' >
+	<table border='0'
+		   cellpadding="0" 
+           cellspacing="0"
+		   style='width:240;'>
+		<tr style='vertical-align:center;color:Blue;'>
+			<td style='font-size:20px;height:43px;text-align:center;'>
+				<img src="../images/240x320C21N/logo_header.png">
+			</td>
+		</tr>
+		
+		<tr style='color:Black;'>
+			<td style='font-size: 20px;height:80px;text-align:center;vertical-align:center'>
+				<b>DESLICE TARJETA</b>
+			</td>
+		</tr>
+
+		<tr style='color:Black;'>
+				<td style='font-size:20px;height:100px;text-align:center;vertical-align:bottom;'>
+					<img src="../images/240x320C21N/EXTUSEMAGREAD.png">
+				</td>
+			</tr>
+			
+		<tr style = 'height:20'>
+			<td style='width:50%;height:20px;vertical-align:bottom'>
+				<button accesskey='&#27;' 
+						style='width:100%;text-align:left;font-size:15px;background-color:transparent;border-style:none;color:white' 
+						action="return -1">Cancelar<img src='../images/240x320C21N/Cancelboton.png'>
+				</button>
+			</td>
+		</tr>
+		
+	</table>
+
+<?ifeq flagmanual 1  
+(button accesskey="0" style="visibility:hidden" action='return 0'/)
+(button accesskey="1" style="visibility:hidden" action='return 1'/)
+(button accesskey="2" style="visibility:hidden" action='return 2'/)
+(button accesskey="3" style="visibility:hidden" action='return 3'/)
+(button accesskey="4" style="visibility:hidden" action='return 4'/)
+(button accesskey="5" style="visibility:hidden" action='return 5'/)
+(button accesskey="6" style="visibility:hidden" action='return 6'/)
+(button accesskey="7" style="visibility:hidden" action='return 7'/)
+(button accesskey="8" style="visibility:hidden" action='return 8'/)
+(button accesskey="9" style="visibility:hidden" action='return 9'/)
+?>
+<input type='timeout' value='<?var timeOut?>' style="visibility:hidden" action="return -6"/>
+<button accesskey='&#138;' style='visibility:hidden' action='call focus.previous()'></button>
+<button accesskey='&#139;' style='visibility:hidden' action='call focus.next()'></button>
+
+</div>
+</body>
+</html>

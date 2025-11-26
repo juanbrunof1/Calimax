@@ -1,0 +1,3 @@
+nmake AdkCapX.smk
+
+pause

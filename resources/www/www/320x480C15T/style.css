@@ -1,0 +1,308 @@
+body {
+	background-color: #000000;
+    font-family: "Noto Sans";}
+
+.new_splash_saver {
+	width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #EA1A3A;
+}
+
+div.header_title {height: 21px;
+    background-color: #00adee;
+    font-size: 16px;
+    text-align: center;
+    line-height: 12px;
+    padding-top: 9px;
+    color: #fff;}
+
+.progress_wrapper {
+	height: 40px;
+}
+
+.progress_wrapper div.h4 {
+	text-align: left;
+    margin-left: 20px;
+    width: 82%;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+	
+.new_solid_progress {
+	height: 10px;
+    overflow: hidden;
+    background-color: #bd243b;
+    width: 95%;
+}
+
+
+.new_solid_progress_vfi {
+	height: 10px;
+    overflow: hidden;
+    background-color: #EA1A3A;
+    width: 95%;
+}
+
+div.solid_progress_div {
+	height: 10px;
+    background-color: #841929;
+}
+
+
+div.solid_progress_div_vfi {
+	height: 10px;
+    background-color: #0055AA;
+}
+
+#854x480_clr_touch_nokb {
+	width:854px;
+	height:480px;
+	background-image: url('../images/background.png');
+}
+
+#854x480_clr_touch_nokb_green {
+	width:854px;
+	height:480px;
+	background-image: url('../images/background_green.png');
+}
+
+#320x480_clr_bkgrd_P400{
+	width:320px;
+	height:480px;
+	background-image: url('../images/320x480C15T/aboutviewfondbco1.png');
+}
+
+#320x480_clr_touch_warning {
+	width:320px;
+	height:480px;
+	background-image: url('../images/320x480C15T/warning.gif');
+}
+
+#320x480_clr_touch_kb_green {
+	width:320px;
+	height:480px;
+	background-image: url('../images/background_p400_green.png');
+}
+
+#320x480_clr_touch_ini {
+	width:320px;
+	height:480px;
+	background-image: url('../images/320x480C15T/aboutlogo.png');
+}
+div.captionText {
+	text-align:center;
+	color:#EA1A3A;
+	font-size:30px;
+	font-weight:bold;
+}
+
+div.messageText {
+	text-align:center;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:normal;
+}
+
+div.greetings {
+	font-size:24px;
+	font-weight:normal;
+}
+
+div.tapButton {
+	width:200px;
+	height:70px;
+	margin-left:200px;
+	border-bottom: 2px #ffffff solid;
+	border-radius: 4px;
+}
+
+div.tapButton.transparent {
+	width:200px;
+	height:70px;
+	text-align:center;
+	border: none;
+}
+
+button.tapButton {
+	width:200px;
+	height:70px;
+	text-align:center;
+	color:#ffffff;
+	background-color:transparent;
+	font-size:30px;
+	font-weight:normal;
+	border:none;
+}
+
+button.bold {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+div.buttonrow {
+	text-align:center;
+	width:100%;
+	height:100px;
+}
+
+button.normalbutton {
+	width:200px;
+	height:70px;
+	text-align:center;
+	color:#ffffff;
+	background-image: url('../images/320x480C15T/button.png');
+	background-color:transparent;
+	border-radius: 4px;
+	font-size:30px;
+	font-weight:normal;
+	border:none;
+}
+
+button.normalbutton:active:focus{
+	width:200px;
+	height:70px;
+	text-align:center;
+	color:#ffffff;
+	background-image: none;
+	background-color:transparent;
+	border-radius: 4px;
+	font-size:24px;
+	font-weight:normal;
+	border:none;
+}
+
+button.normalbutton.green {
+	width:200px;
+	height:70px;
+	text-align:center;
+	color:#ffffff;
+	background-color:#B0D49F;
+	border-radius: 4px;
+	font-size:30px;
+	font-weight:normal;
+	border:none;
+}
+
+button.normalbutton.banorte {
+	width:200px;
+	height:70px;
+	text-align:center;
+	color:#EA1A3A;
+	background-color:#ffffff;
+	border-radius: 4px;
+	font-size:30px;
+	font-weight:bold;
+}
+button.normalbutton.verifone {
+	width:200px;
+	height:70px;
+	text-align:center;
+	color:#FFFFFF;
+	background-color:#00AEEF;
+	border-radius: 4px;
+	font-size:30px;
+	font-weight:bold;
+}
+
+
+button.normalbutton.default {
+	width:200px;
+	height:70px;
+	text-align:center;
+	color:#00ADEF;
+	background-color:#ffffff;
+	border-radius: 4px;
+	font-size:30px;
+	font-weight:bold;
+}
+
+button.normalbutton.default.green {
+	width:200px;
+	height:70px;
+	text-align:center;
+	color:#4C8643;
+	background-color:#ffffff;
+	border-radius: 4px;
+	font-size:30px;
+	font-weight:bold;
+}
+
+div.imageArea {
+	width:100%;
+	text-align:center;
+}
+
+div.imageArea_hidden {
+	width:100%;
+	text-align:hidden;
+}
+
+div.imageArea_50 {
+	width:50%;
+	text-align:center;
+}
+
+div.seperatorLine {
+	color:#ffffff;
+    margin: 0 auto; 
+	border-bottom:2px #ffffff solid;
+}
+
+div.lineItemArea {
+	width:700px;
+	height:260px;
+	overflow:auto;
+	margin: 0 auto;
+}
+
+div.lineItemRow {
+	width:680px;
+	height:55px;
+	margin-top:20px;
+}
+
+div.itemTitle {
+	display: inline;
+	text-align:left;
+	color:#ffffff;
+	font-size:30px;
+	font-weight:bold;
+	width:100%;
+	margin-top:10px;
+}
+
+div.itemCost {
+	display: inline;
+	text-align:right;
+	color:#ffffff;
+	font-size:24px;
+	font-weight:normal;
+	width:100%;
+	margin-top:10px;
+}
+
+div.itemSubText {
+	text-align:left;
+	color:#ffffff;
+	font-size:18px;
+	font-weight:normal;
+}
+div.totalCost {
+	display: inline;
+	text-align:right;
+	color:#ffffff;
+	font-size:24px;
+	font-weight:normal;
+	width:100%;
+}
+
+div.totalTitle {
+	display: inline;
+	text-align:left;
+	color:#ffffff;
+	font-size:24px;
+	font-weight:bold;
+	width:100%;
+}

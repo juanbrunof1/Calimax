@@ -1,0 +1,3 @@
+nmake aes.smk
+
+pause

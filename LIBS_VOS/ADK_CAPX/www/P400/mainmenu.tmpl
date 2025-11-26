@@ -1,0 +1,21 @@
+<table border='0' cellspacing='0' cellpadding='0' style='height:100%;width:100%'>
+  <tr><td style='font-size:36px; height:1px'>
+      <p><b><?insert text?></b></p>
+  </td></tr>
+  <tr><td style='height:100%'>
+      <select name='uimenu' size='4' style='height:100%;width:100%'>
+        <?insert menu?>
+      </select>
+  </td></tr>
+  <tr><td style='height:1px'>
+    <table style='width:100%'>
+      <tr><td style='width:33%'>
+        <button accesskey='7' style='width:100%' action='call uimenu.up()'>UP</button>
+      </td><td style='width:34%'>
+        <button accesskey='&#13;' style='width:100%;background-color:green' action='call uimenu.action()'>OK</button>
+      </td><td style='width:33%'>
+        <button accesskey='9' style='width:100%' action='call uimenu.down()'>DOWN</button>
+      </td></tr>
+    </table>
+  </td></tr>
+</table>

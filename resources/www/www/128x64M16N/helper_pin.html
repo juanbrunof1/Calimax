@@ -1,0 +1,34 @@
+<html>
+<body>
+<div class="content">	
+		<table border='0' 
+			   cellpadding="0" 
+               cellspacing="0"
+			   style='height:54px;width:128px;'>
+			   
+			<tr>
+				<td>
+					<img src="../images/128x64M16N/logo_header.png">
+				</td>
+			</tr>
+			<tr>
+				<td style='font-size:10px;text-align:center;'>
+					<?var HEADER_TITLE?>
+				</td>
+			</tr>
+			
+			<tr>
+				<td style='font-size:10px;text-align:center;'>
+					<b><?var BODY_HEADER?></b>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<input type="pin" name="pin" autosize nocaret minlength="4" maxlength="12" style="width:80px;height:15px;font-size:15px;text-align:center;" action="return 0"/>
+				</td>
+			</tr>
+		</table>
+	</div>
+	 <input type="idletimeout" value="30000ms" style="visibility:hidden" action="return -3">
+</body>
+</html>	

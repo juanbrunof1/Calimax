@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"path": "C:\\Proyectos\\LDI\\adc-lac-mex-engage-elavon-calimax\\lib",
+		},
+		{
+			"path": ".",
+		},
+		{
+			"path": "C:\\Proyectos\\LDI\\adc-lac-mex-engage-elavon-calimax\\resources",
+		},
+		{
+			"path": "C:\\Proyectos\\LDI\\adc-lac-mex-engage-elavon-calimax\\src",
+		},
+		{
+			"path": "C:\\Proyectos\\LDI\\adc-lac-mex-engage-elavon-calimax\\inc",
+		},
+		{
+			"path": "C:\\Proyectos\\LDI\\adc-lac-mex-engage-elavon-calimax\\LIBS_VOS"
+		},
+	],
+}

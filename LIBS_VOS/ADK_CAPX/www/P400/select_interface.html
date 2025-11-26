@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<table border='1' cellspacing='0' cellpadding='0' style='height:100%;width:100%'>
+    <tr><td >
+        <h4>SELECT INTERFACE</h4>
+    </td></tr>
+    <tr><td style='height:100%'>
+        <table style='width:100%'>
+                <?ifeq dial_present 1
+                    (tr)(td)(/td)(td)(input accesskey='1' type='radio' name='interface' value='DIAL') 1.- DIAL(/td)(/tr)?>
+                <?ifeq com1_present 1
+                    (tr)(td)(/td)(td)(input accesskey='2' type='radio' name='interface' value='COM1') 2.- COM1(/td)(/tr)?>
+                <?ifeq com2_present 1
+                    (tr)(td)(/td)(td)(input accesskey='3' type='radio' name='interface' value='COM2') 3.- COM2(/td)(/tr)?>
+        </table>
+    </td></tr>
+    <tr><td style='height:100%'>
+        <table style='width:100%'>
+          <tr><td style='width:33%'>
+            <button accesskey='&#27;' style='width:100%;background-color:red' action='return -1'>CANCEL</button>
+          </td><td style='width:34%'>
+          </td><td style='width:33%'>
+            <button accesskey='&#13;' style='width:100%;background-color:green' action='return 0'>OK</button>
+          </td></tr>
+        </table>
+    </td></tr>
+</table>
+</body>
+</html>

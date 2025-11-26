@@ -1,0 +1,12 @@
+<CONNECTION_PROFILE>
+    <CONNECTION>
+        <TYPE>RAW_SERIAL</TYPE> <!-- Transport protocol-->
+        <TIMEOUT>3000</TIMEOUT> <!--This is the socket connection timeout. 1000 milliseconds. 1 second.-->
+		<SERIAL_PORT>COM1</SERIAL_PORT>
+		<BAUDRATE>115200</BAUDRATE>
+		<PARITY>none</PARITY>
+		<DATABITS>8</DATABITS>
+		<STOPBITS>1</STOPBITS>
+		<FLOWCONTROL>none</FLOWCONTROL>
+    </CONNECTION>
+</CONNECTION_PROFILE>

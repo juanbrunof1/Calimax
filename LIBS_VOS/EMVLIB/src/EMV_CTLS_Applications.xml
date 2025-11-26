@@ -1,0 +1,167 @@
+<ApplicationData>
+	<Application AID="A0000000041010">
+	<CL_Modes>00000003</CL_Modes>
+	<AppName>Mastercard</AppName>
+	<Chip_VerNumber>0002</Chip_VerNumber>
+	<MSR_VerNumber>0001</MSR_VerNumber>
+	<VerNum>0002</VerNum>
+
+	<ASI>01</ASI>
+	<BrKey>5999</BrKey>
+	<TermIdent>3132333435363738</TermIdent>
+	<CL_CVM_Soft_Limit>000009C4</CL_CVM_Soft_Limit>
+	<CL_Ceiling_Limit>00002710</CL_Ceiling_Limit>
+	<FloorLimit>00001000</FloorLimit>
+	<Chip_VerNumber>0002</Chip_VerNumber>
+	<MSR_VerNumber>FFFF</MSR_VerNumber>
+	<AdditionalVersioNumbers>FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</AdditionalVersioNumbers>
+	<TAC_Denial>0000000000</TAC_Denial>
+	<TAC_Online>FC509C8800</TAC_Online>
+	<TAC_Default>FC509C8800</TAC_Default>
+	<EMV_Application>01</EMV_Application>
+	<DefaultTDOL>9F3704</DefaultTDOL>     	
+	<MagstripeCVM_aboveLimit>20</MagstripeCVM_aboveLimit>
+	<MagstripeCVM_belowLimit>00</MagstripeCVM_belowLimit>
+	<ChipCVM_belowLimit>08</ChipCVM_belowLimit>
+	<CL_Ceiling_LimitMobile>00004E20</CL_Ceiling_LimitMobile>
+	<Torn_TXN_Liftime>0078</Torn_TXN_Liftime>
+	<Torn_TXN_Number>02</Torn_TXN_Number>
+	<Txn_Category_Code>02<Txn_Category_Code>
+	<MerchantName_Location>0000</MerchantName_Location>
+	<VisaTTQ>36204000</VisaTTQ>
+	<MTI_Merchant_Type_Ind>00</MTI_Merchant_Type_Ind>
+	<TTI_Term_Trans_Info>000000</TTI_Term_Trans_Info>
+	<TTT_Term_Trans_Type>00<TTT_Term_Trans_Type/>
+	<TOS_Term_Option_Status>0000</TOS_Term_Option_Status>
+	<TERM_RCPT_REQLimit>000000010000</TERM_RCPT_REQLimit>
+	<AMEX_Enhanced_Reader_Capabilties>00000000</AMEX_Enhanced_Reader_Capabilties>
+	<MerchIdent>202020202020202020202020202020</MerchIdent>
+	<MerchantName_Location>200000000000000000000000000000000000000000000000000000000000</MerchantName_Location>	
+	<CDA_Processing>00</CDA_Processing>
+	<AC_BeforeAfter>00</AC_BeforeAfter>
+	<POS_EntryMode>05</POS_EntryMode>
+	<Magstripe_CVMs>01</Magstripe_CVMs>
+	<SecurityLimit>00001388</SecurityLimit>	
+	<AdditionalTags>9F530152</AdditionalTags>
+	<Taglist>008E</Taglist>
+	<AppTermCap>E0F8C8</AppTermCap>
+	<AppFlowCap>1F1F150000</AppFlowCap>
+	<AdditionalTagsTRM>00</AdditionalTagsTRM>
+	<AdditionalTagsCRD>0000</AdditionalTagsCRD>
+	<AIP_CVM_NotSupported>00</AIP_CVM_NotSupported>
+	<CountryCodeTerm>0484</CountryCodeTerm>
+	<AppTermAddCap>F000B0A001</AppTermAddCap>
+	<BelowLimitTerminalCapabilities>E0F8C8</BelowLimitTerminalCapabilities>
+	<AppTerminalType>22</AppTerminalType>
+	<VisaTTQ>36204000</VisaTTQ>
+	<SpecialTRX>2120110000000000</SpecialTRX>
+	<ChksumParams>0100000000</ChksumParams>
+	<ChksumASCII_EMVCO />
+	<AID_Prio />
+	<AID_Prio />
+	<AID_Prio />
+	<AID_Prio />
+	<AID_Prio />
+	<FallbackMIDs>000000</FallbackMIDs>
+	<SpecialTRX>2120110000000000</SpecialTRX>
+	<FallbackHandling>00</FallbackHandling>
+	<CustomerCVM>77</CustomerCVM>  
+	<ChksumParams>2105000000</ChksumParams>
+	<ChksumASCII_EMVCO>00</ChksumASCII_EMVCO>
+	<AdditionalVersionNumbers>01010202030304040505FFFFFFFFFFFFFFFFFFFF</AdditionalVersionNumbers>  
+	<Info_Included_Data>FFFFFFFFFFFF0000</Info_Included_Data>
+	<MasterAID />
+	
+	
+	</Application>
+	<Application AID="A0000000031010">
+	<VerNum>008C</VerNum>
+	<AppName>VISA</AppName>
+	<ASI>01</ASI>
+	<BrKey>5999</BrKey>
+	<TermIdent>3132333435363738</TermIdent>
+	<FloorLimit>00000110</FloorLimit>
+	<Threshold>00000000</Threshold>
+	<TargetPercentage>00</TargetPercentage>
+	<MaxTargetPercentage>00</MaxTargetPercentage>
+	<TAC_Denial>0010000000</TAC_Denial>
+	<TAC_Online>D84004F800</TAC_Online>
+	<TAC_Default>D84000A812</TAC_Default>
+	<EMV_Application>01</EMV_Application>
+	<DefaultTDOL>9F1A0295059A039C01</DefaultTDOL>     
+	<DefaultDDOL>9F3704</DefaultDDOL>
+	<MerchIdent>202020202020202020202020202020</MerchIdent>
+	<CDA_Processing>00</CDA_Processing>
+	<AC_BeforeAfter>00</AC_BeforeAfter>
+	<POS_EntryMode>05</POS_EntryMode>
+	<SecurityLimit>00001388</SecurityLimit>
+	<AdditionalTags>00</AdditionalTags>
+	<Taglist>00579F08</Taglist>
+	<AppTermCap>E0F8C8</AppTermCap>
+	<AppFlowCap>1F1F150000</AppFlowCap>
+	<AIP_CVM_NotSupported>00</AIP_CVM_NotSupported>
+	<CountryCodeTerm>0484</CountryCodeTerm>
+	<AppTermAddCap>F000B0A001</AppTermAddCap>
+	<BelowLimitTerminalCapabilities>E0F8C8</BelowLimitTerminalCapabilities>
+	<AppTerminalType>22</AppTerminalType>
+	<AID_Prio />
+	<AID_Prio />
+	<AID_Prio />
+	<AID_Prio />
+	<AID_Prio />
+	<FallbackMIDs>000000</FallbackMIDs>
+	<SpecialTRX>2120110000000000</SpecialTRX>
+	<FallbackHandling>00</FallbackHandling>
+	<CustomerCVM>00</CustomerCVM>  
+	<ChksumParams>0100000000</ChksumParams>
+	<ChksumASCII_EMVCO>00</ChksumASCII_EMVCO>
+	<AdditionalVersionNumbers>01010202030304040505FFFFFFFFFFFFFFFFFFFF</AdditionalVersionNumbers>  
+	<Info_Included_Data>FFFFFFFF1F000000</Info_Included_Data>
+	<MasterAID />
+	</Application>
+	<Application AID="A0000000032010">
+	<VerNum>008C</VerNum>
+	<AppName>VISA</AppName>
+	<ASI>01</ASI>
+	<BrKey>5999</BrKey>
+	<TermIdent>3132333435363738</TermIdent>
+	<FloorLimit>00000110</FloorLimit>
+	<Threshold>00000000</Threshold>
+	<TargetPercentage>00</TargetPercentage>
+	<MaxTargetPercentage>00</MaxTargetPercentage>
+	<TAC_Denial>0010000000</TAC_Denial>
+	<TAC_Online>D84004F800</TAC_Online>
+	<TAC_Default>D84000A812</TAC_Default>
+	<EMV_Application>01</EMV_Application>
+	<DefaultTDOL>9F1A0295059A039C01</DefaultTDOL>     
+	<DefaultDDOL>9F3704</DefaultDDOL>
+	<MerchIdent>202020202020202020202020202020</MerchIdent>
+	<CDA_Processing>00</CDA_Processing>
+	<AC_BeforeAfter>00</AC_BeforeAfter>
+	<POS_EntryMode>05</POS_EntryMode>
+	<SecurityLimit>00001388</SecurityLimit>
+	<AdditionalTags>00</AdditionalTags>
+	<Taglist>00579F08</Taglist>
+	<AppTermCap>E0F8C8</AppTermCap>
+	<AppFlowCap>1F1F150000</AppFlowCap>
+	<AIP_CVM_NotSupported>00</AIP_CVM_NotSupported>
+	<CountryCodeTerm>0484</CountryCodeTerm>
+	<AppTermAddCap>F000B0A001</AppTermAddCap>
+	<BelowLimitTerminalCapabilities>E0F8C8</BelowLimitTerminalCapabilities>
+	<AppTerminalType>22</AppTerminalType>
+	<AID_Prio />
+	<AID_Prio />
+	<AID_Prio />
+	<AID_Prio />
+	<AID_Prio />
+	<FallbackMIDs>000000</FallbackMIDs>
+	<SpecialTRX>2120110000000000</SpecialTRX>
+	<FallbackHandling>00</FallbackHandling>
+	<CustomerCVM>00</CustomerCVM>  
+	<ChksumParams>0100000000</ChksumParams>
+	<ChksumASCII_EMVCO>00</ChksumASCII_EMVCO>
+	<AdditionalVersionNumbers>01010202030304040505FFFFFFFFFFFFFFFFFFFF</AdditionalVersionNumbers>  
+	<Info_Included_Data>FFFFFFFF1F000000</Info_Included_Data>
+	<MasterAID />
+	</Application>
+</ApplicationData>

@@ -1,0 +1,5 @@
+Package: PwrMgmt 
+Group: share 
+User: usr1 
+Version: 1.2.0 
+Type: flashconfig 

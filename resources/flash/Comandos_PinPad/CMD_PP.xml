@@ -1,0 +1,142 @@
+<CMD>
+	<MSJ cmdName="Z2" lenCmd="0" numFields="2">				
+		<FIELD0 Flow="H"  defined="FIX" len="1" type="HEX" >SUB</FIELD0>
+		<FIELD1 Flow="H"  defined="VAR" len="0" type="HEX" >TEXT</FIELD1>
+	</MSJ>
+	<MSJ cmdName="72" lenCmd="0" numFields="0">				
+	</MSJ>
+	<MSJ cmdName="Z10" lenCmd="0" numFields="4">
+		<FIELD0 Flow="T" defined="FIX" len="2" type="NUM" >STATUS</FIELD0>
+		<FIELD1 Flow="T" defined="FIX" len="548" type="HEX">LENGH</FIELD1>
+		<FIELD2 Flow="T" defined="FIX" len="70" type="HEX" >TOKEW</FIELD2>
+		<FIELD3 Flow="T" defined="FIX" len="2"  type="HEX" >TOKES</FIELD3>
+	</MSJ>
+	<MSJ cmdName="Z11" lenCmd="0" numFields="2">
+		<FIELD0 Flow="H"  defined="FIX" len="78" type="HEX" >TOKEX</FIELD0>
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="NUM" >STATUS</FIELD1>
+	</MSJ>
+	<MSJ cmdName="Q8" lenCmd="0" numFields="6">
+		<FIELD0 Flow="T" defined="FIX" len="2" type="NUM" >STATUS</FIELD0>
+		<FIELD1 Flow="T" defined="FIX" len="2" type="HEX" >LEN</FIELD1>
+		<FIELD2 Flow="T" defined="TLV" len="9" type="HEX" >SERIAL_NUMBER</FIELD2>
+		<FIELD3 Flow="T" defined="VAR" len="35" type="NUM" >APPVERSION</FIELD3>
+		<FIELD4 Flow="T" defined="TLV" len="4" type="HEX" >STATUS_INYECTION</FIELD4>
+		<FIELD5 Flow="T" defined="TLV" len="4" type="HEX" >CRC32</FIELD5>
+	</MSJ>
+	<MSJ cmdName="C14" lenCmd="0" numFields="2">
+		<FIELD0 Flow="H"  defined="VAR" len="0" type="HEX" >TOKEN_ET</FIELD0>
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="NUM" >STATUS</FIELD1>
+	</MSJ>		
+	<MSJ cmdName="C25" lenCmd="0" numFields="5">		
+		<FIELD0 Flow="H"  defined="FIX" len="2" type="NUM" >TYPE_SCRIPT</FIELD0>
+		<FIELD1 Flow="H"  defined="FIX" len="1" type="HEX" >FLAG_FILE</FIELD1>		
+		<FIELD2 Flow="H"  defined="FIX" len="2" type="HEX" >NUM_SCRIPT</FIELD2>		
+		<FIELD3 Flow="H"  defined="VAR" len="3" type="HEX" >SCRIPT</FIELD3>	
+		<FIELD4 Flow="T"  defined="VAR" len="2" type="ASC" >STATUS</FIELD4>	
+	</MSJ>
+	<MSJ cmdName="C12" lenCmd="0" numFields="4">		
+		<FIELD0 Flow="H"  defined="FIX" len="2" type="NUM" >TYPE_SCRIPT</FIELD0>
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="HEX" >STATUS</FIELD1>		
+		<FIELD2 Flow="T"  defined="FIX" len="2" type="HEX" >NUM_SCRIPT</FIELD2>
+		<FIELD3 Flow="T"  defined="FIX" len="X" type="NUM" >RES_SCRIPT</FIELD3>						
+	</MSJ>
+	<MSJ cmdName="C51" lenCmd="2" numFields="9">
+		<FIELD0 Flow="H"  defined="TLV" len="1" type="NUM" >TIMEOUT</FIELD0>
+		<FIELD1 Flow="H"  defined="TLV" len="3" type="NUM" >DATE</FIELD1>
+		<FIELD2 Flow="H"  defined="TLV" len="3" type="NUM" >TIME</FIELD2>
+		<FIELD3 Flow="H"  defined="TLV" len="1" type="NUM" >TRANSTYP</FIELD3>
+		<FIELD4 Flow="H"  defined="TLV" len="4" type="NUM" >AMOUNT</FIELD4>
+		<FIELD5 Flow="H"  defined="TLV" len="4" type="NUM" >CASHBACK</FIELD5>
+		<FIELD6 Flow="H"  defined="TLV" len="2" type="NUM" >CURRCODE</FIELD6>
+		<FIELD7 Flow="H"  defined="TLV" len="1" type="NUM" >MERDESC</FIELD7>
+		<FIELD8 Flow="H"  defined="TLV" len="200" type="HEX" >RTOKE1</FIELD8>
+	</MSJ>
+	<MSJ cmdName="C53" lenCmd="2" numFields="14">
+		<FIELD0 Flow="T"  defined="FIX" len="2" type="NUM" >STATUS</FIELD0>
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="NUM" >LENGH</FIELD1>
+		<FIELD2 Flow="T"  defined="TLV" len="10" type="HEX" >PAN</FIELD2>
+		<FIELD3 Flow="T"  defined="TLV" len="35" type="NUM" >CARDHOLDER</FIELD3>
+		<FIELD4 Flow="T"  defined="TLV" len="50" type="NUM" >TRACK2</FIELD4>
+		<FIELD5 Flow="T"  defined="TLV" len="96" type="NUM" >TRACK1</FIELD5>
+		<FIELD6 Flow="T"  defined="FIX" len="16" type="NUM" >SEC_CODE</FIELD6>
+		<FIELD7 Flow="T"  defined="FIX" len="2" type="NUM" >POSENTRY</FIELD7>
+		<FIELD8 Flow="T"  defined="FIX" len="200" type="NUM" >TOKE1</FIELD8>
+		<FIELD9 Flow="T"  defined="FIX" len="200" type="NUM" >TOKE2</FIELD9>
+		<FIELD10 Flow="T"  defined="FIX" len="70" type="NUM" >TOKES</FIELD10>
+		<FIELD11 Flow="T"  defined="FIX" len="108" type="NUM" >TOKEZ</FIELD11>
+		<FIELD12 Flow="T"  defined="FIX" len="182" type="NUM" >TOKEY</FIELD12>
+		<FIELD13 Flow="T"  defined="FIX" len="108" type="NUM" >TOKCZ</FIELD13>
+		
+	</MSJ>
+	<MSJ cmdName="C54" lenCmd="2" numFields="8">
+		<FIELD0 Flow="A"  defined="TLV" len="2" type="NUM" >STATUS</FIELD0>
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="NUM" >LENGH</FIELD1>	
+		<FIELD2 Flow="H"  defined="TLV" len="6" type="HEX" >AUHTRES</FIELD2>		
+		<FIELD3 Flow="H"  defined="TLV" len="2" type="HEX" >HOSTRESPONSE</FIELD3>
+		<FIELD4 Flow="H"  defined="TLV" len="16" type="NUM" >ISS_UTH</FIELD4>
+		<FIELD5 Flow="H"  defined="TLV" len="3" type="NUM" >TRANSDATE</FIELD5>
+		<FIELD6 Flow="H"  defined="TLV" len="3" type="NUM" >TRANSTIME</FIELD6>
+		<FIELD7 Flow="A"  defined="TLV" len="144" type="NUM" >TOKE2</FIELD7>
+	</MSJ>
+	<MSJ cmdName="SE14" lenCmd="0" numFields="2">
+		<FIELD0 Flow="H"  defined="VAR" len="0" type="HEX" >TOKEN_ET</FIELD0>
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="NUM" >STATUS</FIELD1>
+	</MSJ>		
+	<MSJ cmdName="SE25" lenCmd="0" numFields="5">		
+		<FIELD0 Flow="H"  defined="FIX" len="2" type="NUM" >TYPE_SCRIPT</FIELD0>
+		<FIELD1 Flow="H"  defined="FIX" len="1" type="HEX" >FLAG_FILE</FIELD1>		
+		<FIELD2 Flow="H"  defined="FIX" len="2" type="HEX" >NUM_SCRIPT</FIELD2>		
+		<FIELD3 Flow="H"  defined="VAR" len="3" type="HEX" >SCRIPT</FIELD3>	
+		<FIELD4 Flow="T"  defined="VAR" len="2" type="ASC" >STATUS</FIELD4>	
+	</MSJ>
+	<MSJ cmdName="SE12" lenCmd="0" numFields="4">		
+		<FIELD0 Flow="H"  defined="FIX" len="2" type="NUM" >TYPE_SCRIPT</FIELD0>
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="HEX" >STATUS</FIELD1>		
+		<FIELD2 Flow="T"  defined="FIX" len="2" type="HEX" >NUM_SCRIPT</FIELD2>
+		<FIELD3 Flow="T"  defined="FIX" len="X" type="NUM" >RES_SCRIPT</FIELD3>						
+	</MSJ>
+	<MSJ cmdName="SE51" lenCmd="2" numFields="9">
+		<FIELD0 Flow="H"  defined="TLV" len="1" type="NUM" >TIMEOUT</FIELD0>
+		<FIELD1 Flow="H"  defined="TLV" len="3" type="NUM" >DATE</FIELD1>
+		<FIELD2 Flow="H"  defined="TLV" len="3" type="NUM" >TIME</FIELD2>
+		<FIELD3 Flow="H"  defined="TLV" len="1" type="NUM" >TRANSTYP</FIELD3>
+		<FIELD4 Flow="H"  defined="TLV" len="4" type="NUM" >AMOUNT</FIELD4>
+		<FIELD5 Flow="H"  defined="TLV" len="4" type="NUM" >CASHBACK</FIELD5>
+		<FIELD6 Flow="H"  defined="TLV" len="2" type="NUM" >CURRCODE</FIELD6>
+		<FIELD7 Flow="H"  defined="TLV" len="1" type="NUM" >MERDESC</FIELD7>
+		<FIELD8 Flow="H"  defined="TLV" len="200" type="HEX" >RTOKE1</FIELD8>
+	</MSJ>
+	<MSJ cmdName="SE53" lenCmd="2" numFields="14">
+		<FIELD0 Flow="T"  defined="FIX" len="2" type="NUM" >STATUS</FIELD0>
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="NUM" >LENGH</FIELD1>
+		<FIELD2 Flow="T"  defined="TLV" len="10" type="HEX" >PAN</FIELD2>
+		<FIELD3 Flow="T"  defined="TLV" len="35" type="NUM" >CARDHOLDER</FIELD3>
+		<FIELD4 Flow="T"  defined="TLV" len="50" type="NUM" >TRACK2</FIELD4>
+		<FIELD5 Flow="T"  defined="TLV" len="96" type="NUM" >TRACK1</FIELD5>
+		<FIELD6 Flow="T"  defined="FIX" len="16" type="NUM" >SEC_CODE</FIELD6>
+		<FIELD7 Flow="T"  defined="FIX" len="2" type="NUM" >POSENTRY</FIELD7>
+		<FIELD8 Flow="T"  defined="FIX" len="200" type="NUM" >TOKE1</FIELD8>
+		<FIELD9 Flow="T"  defined="FIX" len="200" type="NUM" >TOKE2</FIELD9>
+		<FIELD10 Flow="T"  defined="FIX" len="70" type="NUM" >TOKES</FIELD10>
+		<FIELD11 Flow="T"  defined="FIX" len="108" type="NUM" >TOKEZ</FIELD11>
+		<FIELD12 Flow="T"  defined="FIX" len="182" type="NUM" >TOKEY</FIELD12>
+		<FIELD13 Flow="T"  defined="FIX" len="108" type="NUM" >TOKCZ</FIELD13>
+		
+	</MSJ>
+	<MSJ cmdName="SE54" lenCmd="2" numFields="8">
+		<FIELD0 Flow="A"  defined="TLV" len="2" type="NUM" >STATUS</FIELD0>
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="NUM" >LENGH</FIELD1>	
+		<FIELD2 Flow="H"  defined="TLV" len="6" type="HEX" >AUHTRES</FIELD2>		
+		<FIELD3 Flow="H"  defined="TLV" len="2" type="HEX" >HOSTRESPONSE</FIELD3>
+		<FIELD4 Flow="H"  defined="TLV" len="16" type="NUM" >ISS_UTH</FIELD4>
+		<FIELD5 Flow="H"  defined="TLV" len="3" type="NUM" >TRANSDATE</FIELD5>
+		<FIELD6 Flow="H"  defined="TLV" len="3" type="NUM" >TRANSTIME</FIELD6>
+		<FIELD7 Flow="A"  defined="TLV" len="144" type="NUM" >TOKE2</FIELD7>
+	</MSJ>
+
+	<MSJ cmdName="Z4" lenCmd="0" numFields="3">
+		<FIELD0 Flow="H"  defined="TLV" len="1" type="NUM" >TIMEOUT</FIELD0>
+		<FIELD1 Flow="T"  defined="FIX" len="2" type="NUM" >STATUS</FIELD1>
+		<FIELD2 Flow="T"  defined="TLV" len="1" type="NUM" >PAN</FIELD2>
+	</MSJ>
+</CMD>
